@@ -3,3 +3,12 @@
 
 # Ignore Gradle build output directory
 build
+
+# developer specific settings and credentials
+/local.properties
+
+# ignore IDEA settings
+.idea/
+# but have a common checkstyle configuration
+!.idea/checkstyle-idea.xml
+*.iml
