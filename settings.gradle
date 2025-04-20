@@ -4,7 +4,7 @@
 
 plugins {
     // develocity plugin
-    id 'com.gradle.develocity' version '3.18.2'
+    id 'com.gradle.develocity' version '3.19.2'
 
     // Apply the foojay-resolver plugin to allow automatic download of JDKs
     id 'org.gradle.toolchains.foojay-resolver-convention' version '0.4.0'
@@ -15,7 +15,7 @@ include('OpenWIGLibrary')
 
 develocity {
     buildScan {
-        termsOfUseUrl = "https://gradle.com/terms-of-service"
+        termsOfUseUrl = "https://gradle.com/help/legal-terms-of-use"
         termsOfUseAgree = "yes"
     }
 }
